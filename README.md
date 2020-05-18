@@ -109,7 +109,7 @@ The base level often consists of different learning algorithms and therefore sta
 ## Model Comaparison -
 Comparing the boxplots of all the models with RMSE in y axis as it is a regression problem.
 
-![Model Comparison]()
+![Model Comparison](https://github.com/SaranyaDScientist/Concrete_Compressing_Strength/blob/master/Concrete_model_comp.png)
 
 ## Important Features from the Model -
 Those variables which have positive or negative higher coeeficients are the most important features of the model. The important features of the model are
