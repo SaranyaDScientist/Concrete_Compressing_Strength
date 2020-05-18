@@ -42,6 +42,15 @@ A heatmap is a data visualization technique that shows magnitude of a phenomenon
 
 ![Heatmap](https://github.com/SaranyaDScientist/Concrete_Compressing_Strength/blob/master/Concrete_corr.png)
 
+## Data Transformation (Standardization) -
+Data standardization is the process of rescaling one or more attributes so that they have a mean value of 0 and a standard deviation of 1. Standardization assumes that your data has a Gaussian (bell curve) distribution. This does not strictly have to be true, but the technique is more effective if your attribute distribution is Gaussian.
+
+Since all the variables are of numeric datatype with different units, data needs to be standardized.
+
+### StandardScaler -
+StandardScaler standardizes a feature by subtracting the mean and then scaling to unit variance. Unit variance means dividing all the values by the standard deviation. StandardScaler does not meet the strict definition of scale I introduced earlier.
+StandardScaler results in a distribution with a standard deviation equal to 1. The variance is equal to 1 also, because variance = standard deviation squared. And 1 squared = 1. StandardScaler makes the mean of the distribution 0. About 68% of the values will lie be between -1 and 1.
+
 # Modelling:
 
 ## CROSS VALIDATION:
