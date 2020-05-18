@@ -96,11 +96,26 @@ In the realm of machine learning, the random forest regression algorithm can be 
 3. If your other linear model implementations are suffering from overfitting, you may want to use a random forest.
 
 ## Gradient Boosting Regressor -
-Gradient boosting regressors are a group of machine learning algorithms that combine many weak learning models together to create a strong predictive model. Decision trees are usually used when doing gradient boosting. 
+Gradient boosting regressors are a group of machine learning algorithms that combine many weak learning models together to create a strong predictive model. Decision trees are usually used when doing gradient boosting. Gradient Boosting trains many models in a gradual, additive and sequential manner. 
 
 ## Stacked -
 Stacking is an ensemble learning technique that combines multiple classification or regression models via a meta-classifier or a meta-regressor. The base level models are trained based on a complete training set, then the meta-model is trained on the outputs of the base level model as features.
 The base level often consists of different learning algorithms and therefore stacking ensembles are often heterogeneous. 
 
+![RMSE R^2](https://github.com/SaranyaDScientist/Concrete_Compressing_Strength/blob/master/Concrete_rmse.png)
 
+### Gradient Boosting Regressor is the best model since it has the Lowest RMSE and highest R^2
+
+## Model Comaparison -
+Comparing the boxplots of all the models with RMSE in y axis as it is a regression problem.
+
+![Model Comparison](https://github.com/SaranyaDScientist/Concrete_Compressing_Strength/blob/master/Concrete_model_comp.png)
+
+## Important Features from the Model -
+Those variables which have positive or negative higher coeeficients are the most important features of the model. The important features of the model are
+
+![Important Features](https://github.com/SaranyaDScientist/Concrete_Compressing_Strength/blob/master/Concrete_feat.png)
+
+# Inference
+The most important features from the model are **Age(days), Cement, Water**. It is obvious that Concrete compressing strength highly depends on the number of days along with the correct proportion of cement and water. The number of days is directly proportional to the compressing strength of concrete.
 
